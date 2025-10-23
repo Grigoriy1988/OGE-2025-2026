@@ -10,5 +10,5 @@ def f(number ,radix):
     return answer
 print(f('11011011',2) + f('1110',8) - f('111',16))
 
-print(int('11011011',2) + int('1110',8) - int('111',16))
+#print(int('11011011',2) + int('1110',8) - int('111',16))
 
