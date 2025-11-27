@@ -9,7 +9,7 @@ def f(number ,radix):
         i += 1
     return answer
 
-#print(f('a1E',16))
+#print(f('a1E',15))
 
 
 
