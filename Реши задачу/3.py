@@ -23,7 +23,6 @@ while minDist < inf:
         if not selected[j] and dist[j] < minDist:
             minDist =dist[j]
             v = j
-print(dist)
 v = n - 1
 print(v)
 while v != start:
@@ -32,3 +31,4 @@ while v != start:
             v = i
     break
 print(v)
+print(dist)
