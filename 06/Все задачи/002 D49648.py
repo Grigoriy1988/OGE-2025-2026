@@ -8,5 +8,6 @@ for A in range(-1200, 1300):
             count += 1 #print("NO")
     if count == 5:
         print(A)
+        break
 
 
