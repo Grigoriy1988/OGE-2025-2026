@@ -4,12 +4,12 @@ for A in range(-100, 100):
     count = 0
     for s, t in list_s_t:
         if(s > A) or (t > 11):
-            count += 1
+            pass
             # print("YES")
         else:
-            pass
+            count += 1
             #print("NO")
 
     if count == 3:
         list_A.append(A)
-print(f'Ответ: {min(list_A)}')
+print(f'Ответ: {max(list_A)}')
