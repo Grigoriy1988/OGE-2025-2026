@@ -1,15 +1,15 @@
-list_s_t = [(1, 2), (11, 2), (1, 12), (11, 12), (-11, -12), (-11, 12), (-12, 11), (10, 10), (10, 5)]
+list_s_t = [(-9, 11), (2, 7), (5, 12), (2, -2), (7, -9), (12, 6), (9, -1), (7, 11), (11, -5)]
 list_A = []
 for A in range(-100, 100):
     count = 0
     for s, t in list_s_t:
-        if(s > 10) or (t > A):
-            count += 1
+        if (s > A) or (t > 11):
+            pass
             # print("YES")
         else:
-            pass
+            count += 1
             #print("NO")
 
-    if count == 6:
+    if count == 5:
         list_A.append(A)
 print(f'Ответ: {len(list_A)}')

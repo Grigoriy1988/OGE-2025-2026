@@ -10,6 +10,6 @@ for A in range(-100, 100):
             pass
             #print("NO")
 
-    if count == 6:
+    if count == 7:
         list_A.append(A)
 print(f'Ответ: {len(list_A)}')

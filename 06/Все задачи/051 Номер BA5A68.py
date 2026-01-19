@@ -12,4 +12,4 @@ for A in range(-100, 100):
 
     if count == 6:
         list_A.append(A)
-print(f'Ответ: {len(list_A)}')
+print(f'Ответ: {min(list_A)}')

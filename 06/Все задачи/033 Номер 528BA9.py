@@ -3,13 +3,13 @@ list_A = []
 for A in range(-100, 100):
     count = 0
     for s, t in list_s_t:
-        if(s > 10) or (t > A):
-            count += 1
+        if (s > 10) or (t > A):
+            pass
             # print("YES")
         else:
-            pass
+            count += 1
             #print("NO")
 
-    if count == 6:
+    if count == 2:
         list_A.append(A)
-print(f'Ответ: {len(list_A)}')
+print(f'Ответ: {min(list_A)}')

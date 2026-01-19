@@ -1,0 +1,10 @@
+list_s_k = [(1, 1), (7, 9), (8, -12), (6, 6), (8, 11), (-10, -12), (-10, 11), (7, 1), (12, 7)]
+count = 0
+for s, k in list_s_k:
+    if s > 6 and k > 6:
+        print("YES")
+        count += 1
+    else:
+        print("NO")
+
+print(f'Ответ: {count}')
