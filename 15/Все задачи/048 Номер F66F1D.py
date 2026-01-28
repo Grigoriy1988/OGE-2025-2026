@@ -1,3 +1,4 @@
+# Используя подпрограмму
 def f(n):
     if n % 3 == 0 and n % 10 == 2:
         numbers.append(n)
