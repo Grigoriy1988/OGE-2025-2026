@@ -1,0 +1,6 @@
+count = 0
+for _ in range(int(input())):
+    a = int(input())
+    if a % 8 == 6 and int('100', 8) <= a <= int('777', 8):
+        count += 1
+print(count)
